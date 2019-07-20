@@ -1,4 +1,8 @@
 module.exports = {
   mode: 'production',
-  // 他の設定…
+  entry: './src/index.js',
+  output: {
+    path: `${__dirname}/dist`,
+    filename: 'main.js'
+  },
 };
